@@ -24,7 +24,7 @@ class BankAccount:
 
 
 # Creating accounts
-account_1 = BankAccount("123456", "Oto",500)
+account_1 = BankAccount("123456", "Oto", 500)
 account_2 = BankAccount("789012", "Anna", 1000)
 
 # Transactions
@@ -35,7 +35,7 @@ account_2.withdraw(200)
 account_2.withdraw(1500)  # Withdraw more than balance
 
 
-#Homework N16.2
+# Homework N16.2
 class Student:
     def __init__(self, name, student_id):
         self.name = name
