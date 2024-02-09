@@ -33,3 +33,11 @@ account_1.withdraw(150)
 
 account_2.withdraw(200)
 account_2.withdraw(1500)  # Withdraw more than balance
+
+
+#Homework N16.2
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.courses = []
