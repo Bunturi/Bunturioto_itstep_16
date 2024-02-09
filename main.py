@@ -51,3 +51,20 @@ class Student:
     # Append chosen courses
     def chosen_courses(self, course):
         self.courses.append(course)
+
+
+# Creating students
+student_1 = Student("Oto", "st-0001")
+student_2 = Student("Tamo", "st-0002")
+
+# Courses
+student_1.chosen_courses("Mathematics")
+student_1.chosen_courses("Physics")
+
+student_2.chosen_courses("History")
+student_2.chosen_courses("Philosophy")
+
+# Displaying student information
+student_1.student_info()
+print("\n")
+student_2.student_info()
