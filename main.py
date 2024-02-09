@@ -21,3 +21,15 @@ class BankAccount:
         else:
             print(f"Dear {self.account_holder}, there are insufficient funds in account "
                   f"{self.account_number} to withdraw {amount} Gel")
+
+
+# Creating accounts
+account_1 = BankAccount("123456", "Oto",500)
+account_2 = BankAccount("789012", "Anna", 1000)
+
+# Transactions
+account_1.deposit(500)
+account_1.withdraw(150)
+
+account_2.withdraw(200)
+account_2.withdraw(1500)  # Withdraw more than balance
