@@ -41,3 +41,13 @@ class Student:
         self.name = name
         self.student_id = student_id
         self.courses = []
+
+    # Show student info
+    def student_info(self):
+        print(f"Student Name: {self.name}")
+        print(f"Student ID: {self.student_id}")
+        print(f"Courses Enrolled: {', '.join([course for course in self.courses])}")
+
+    # Append chosen courses
+    def chosen_courses(self, course):
+        self.courses.append(course)
